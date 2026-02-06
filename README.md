@@ -192,6 +192,6 @@ This will:
 
 ## 👨‍💻 Developer
 
-Sayandip Saha - 4th Year IT (St. Thomas' College of Engineering and Technology)
-Agniva Acherjee - 4th Year IT (St. Thomas' College of Engineering and Technology)
-Md Farhann Akhter - 4th Year IT (St. Thomas' College of Engineering and Technology)
+- Sayandip Saha - 4th Year IT (St. Thomas' College of Engineering and Technology) (https://www.linkedin.com/in/sayandip-saha-523ab430b/)
+- Agniva Acherjee - 4th Year IT (St. Thomas' College of Engineering and Technology) (https://www.linkedin.com/in/agniva-acherjee-2570b233b/)
+- Md Farhann Akhter - 4th Year IT (St. Thomas' College of Engineering and Technology) (https://www.linkedin.com/in/md-farhann-akhter-81b5ab303/)
