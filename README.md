@@ -1,5 +1,5 @@
-# Handwriting Generation and Verification Android Application  
-*(Final Year Project)*
+# 🎓 ExamPro – Online Assessment Website 
+*(Full Stack Web Application Project)* 
 
 ---
 
