@@ -174,7 +174,7 @@ This will:
 - No Android UI integration yet  
 - No handwriting generation model implemented  
 - No similarity percentage verification system  
-- Works only for English alphabet (A–Z)  
+- Works only for the English alphabet (A–Z), except C, D, F, G, J, R, S, P, Z.
 - No cloud-based storage or API integration  
 
 ---
