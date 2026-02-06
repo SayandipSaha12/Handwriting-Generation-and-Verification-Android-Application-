@@ -1,5 +1,5 @@
 # Handwriting-Generation-and-Verification-Android-Application
-*(AI & ML Based Android Application Development Project )* 
+*(AI & ML Based Android Application Development Project - Final Year Project )* 
 
 ---
 
