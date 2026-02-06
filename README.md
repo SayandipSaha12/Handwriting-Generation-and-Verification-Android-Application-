@@ -709,21 +709,6 @@ print(os.path.exists('test_images/sample_letter.jpg'))  # Should print True
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-```
-MIT License - Summary
-✅ Commercial use allowed
-✅ Modification allowed
-✅ Distribution allowed
-✅ Private use allowed
-⚠️ No warranty provided
-⚠️ License must be included
-```
-
----
-
 ## 📞 Contact & Support
 
 ### Connect With the Team
