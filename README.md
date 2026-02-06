@@ -1,5 +1,5 @@
 # 🎓 ExamPro – Online Assessment Website 
-*(Full Stack Web Application Project)* 
+*(Full Stack Web Development Project)* 
 
 ---
 
