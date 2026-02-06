@@ -1,5 +1,5 @@
-# 🎓 ExamPro – Online Assessment Website 
-*(Full Stack Web Development Project)* 
+# Handwriting-Generation-and-Verification-Android-Application
+*(AI & ML Based Android Application Development Project )* 
 
 ---
 
