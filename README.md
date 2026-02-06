@@ -1,124 +1,197 @@
-Android Application for Handwriting Generation and Verification (Final Year Project)
-📌 Project Status
+# Android Application for Handwriting Generation and Verification  
+*(Final Year Project)*
 
-⚠ This project is currently under development.
+---
 
-Only the OCR and personalized handwriting recognition module has been completed.
+## 📌 Project Status
 
-The Android application, handwriting generation module, and similarity-based verification system are yet to be implemented.
+⚠ This project is currently **under development**.
 
-📖 Overview
+Only the **OCR and personalized handwriting recognition module** has been completed.
+
+The following modules are **not yet implemented**:
+
+- Android application integration  
+- Handwriting generation model  
+- Similarity-based handwriting verification system  
+
+---
+
+## 📖 Overview
 
 This project aims to develop an AI-based Android application capable of:
 
-Analyzing user handwriting
+- Analyzing user handwriting  
+- Generating controlled handwriting variations  
+- Verifying handwriting authenticity using similarity scoring  
 
-Generating controlled handwriting variations
+### ✅ Currently Implemented
 
-Verifying handwriting authenticity using similarity scoring
+- CNN-based handwritten letter recognition (A–Z)  
+- EMNIST dataset training  
+- Transfer learning for personalized handwriting  
+- Full preprocessing pipeline:
+  - Grayscale conversion  
+  - Image inversion  
+  - Otsu thresholding  
+  - Character cropping  
+  - Padding and centering  
+  - Resizing to 28×28  
+- Visualization of preprocessing steps  
 
-Currently implemented:
+---
 
-CNN-based handwritten letter recognition (A–Z)
+## 🧠 Technologies Used
 
-EMNIST dataset training
+### Implemented
 
-Transfer learning for personalized handwriting
+- Python  
+- TensorFlow  
+- TensorFlow Datasets  
+- OpenCV  
+- NumPy  
+- Matplotlib  
+- EMNIST Dataset  
 
-Full preprocessing pipeline (grayscale, thresholding, cropping, resizing)
+### Planned
 
-Visualization of preprocessing steps
+- Android Studio  
+- Kotlin  
+- SQLite  
+- Mobile ML integration  
 
-🧠 Technologies Used
+---
 
-Python
+## ⚙ Installation Guide
 
-TensorFlow
+### 1️⃣ Install Python
 
-TensorFlow Datasets
+Download and install Python (3.9–3.11 recommended):
 
-OpenCV
+https://www.python.org/downloads/
 
-NumPy
+Make sure to check:  
+Add Python to PATH
 
-Matplotlib
+---
 
-EMNIST Dataset
+### 2️⃣ Create Virtual Environment
 
-Planned:
+Run:
 
-Android Studio
-
-Kotlin
-
-SQLite
-
-Mobile ML integration
-
-⚙ Installation Guide
-1. Install Python (3.9–3.11 recommended)
-2. Create Virtual Environment
+```bash
 python -m venv venv
+```
 
+Activate virtual environment:
 
-Activate:
+Windows:
 
+```bash
 venv\Scripts\activate
+```
 
-3. Install Dependencies
+Linux / macOS:
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+### 3️⃣ Install Dependencies
+
+Create a file named `requirements.txt` with:
+
+```
+tensorflow
+tensorflow-datasets
+opencv-python
+numpy
+matplotlib
+```
+
+Then run:
+
+```bash
 pip install -r requirements.txt
+```
 
-🚀 How to Run
-Train Model
+---
+
+## 🚀 How to Run
+
+### 🔹 Train Base Model (EMNIST)
+
+```bash
 python test_cnn_fashionmnist.py
+```
 
-Fine-Tune with Custom Handwriting
+This will generate:
+
+- handwriting_emnist_model_improved.keras  
+- training_history.png  
+- sample_predictions.png  
+
+---
+
+### 🔹 Fine-Tune with Custom Handwriting
+
+Before running, create a folder for your handwritten samples and update the folder path inside `test.py`.
+
+Then run:
+
+```bash
 python test.py
+```
 
-Predict Handwritten Letter
+This will generate:
+
+- handwriting_model_personalized.keras  
+- finetuning_history.png  
+
+---
+
+### 🔹 Predict Handwritten Letter
+
+Update the image path inside `test_handwriting.py`, then run:
+
+```bash
 python test_handwriting.py
+```
 
-📌 Current Limitations
+This will:
 
-No Android UI integration yet
+- Predict the letter  
+- Show top 5 predictions  
+- Display confidence percentage  
+- Save preprocessing visualization  
 
-No handwriting generation model implemented
+---
 
-No similarity percentage verification system
+## 📌 Current Limitations
 
-Works only for English alphabet (A–Z)
+- No Android UI integration yet  
+- No handwriting generation model implemented  
+- No similarity percentage verification system  
+- Works only for English alphabet (A–Z)  
+- No cloud-based storage or API integration  
 
-🎯 Future Scope
+---
 
-Android application integration
+## 🎯 Future Scope
 
-GAN-based handwriting generation
+- Android application integration  
+- GAN-based handwriting generation  
+- Siamese Network for similarity verification  
+- Multi-language support  
+- Cloud-based model training  
+- Secure local database integration (SQLite)  
 
-Siamese Network for similarity verification
+---
 
-Multi-language support
+## 👨‍💻 Developer
 
-Cloud-based model training
-
-🔥 Honest Opinion
-
-Sayandip, your CNN + fine-tuning pipeline is actually strong.
-This is not a toy project.
-
-If you now implement:
-
-Siamese network for similarity scoring
-
-Basic Android UI integration
-
-This becomes a very powerful final year project.
-
-Right now it's 60–65% complete technically.
-
-If you want, I can next:
-
-Help you design the similarity verification model
-
-Or design the Android integration architecture properly
-
-Or polish your GitHub to look industry-level
+Sayandip Saha - 4th Year IT (St. Thomas' College of Engineering and Technology)
+Agniva Acherjee - 4th Year IT (St. Thomas' College of Engineering and Technology)
+Md Farhann Akhter - 4th Year IT (St. Thomas' College of Engineering and Technology)
