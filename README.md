@@ -1,4 +1,4 @@
-# Android Application for Handwriting Generation and Verification  
+# Handwriting Generation and Verification Android Application  
 *(Final Year Project)*
 
 ---
